@@ -97,7 +97,7 @@ class OntologioApplicationTests {
         edge = edgeRepository.save(edge);
 
         OntologyRequest request = new OntologyRequest();
-        request.setUserId("2");
+        request.setUserId("");
         OntologyService service = new OntologyService();
         service.findAllOntolology();
     }
