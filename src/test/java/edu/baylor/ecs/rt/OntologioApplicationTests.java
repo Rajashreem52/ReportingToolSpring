@@ -66,7 +66,7 @@ class OntologioApplicationTests {
         PurchaseRequest request = new PurchaseRequest();
         request.setPrice(BigInteger.valueOf(1000));
         request.setTypel(BigInteger.valueOf(2));
-        request.setUsername("Rajashree");
+        request.setUsername("test1");
         purchaseService.purchase(request);
     }
 
